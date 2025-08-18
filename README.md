@@ -65,15 +65,18 @@ The project integrates **SEO optimization**, **dark/light mode**, and leverages 
 - 🌍 Multi-language support
 
 ## ⚙️ Run Locally
-- 1. Clone the repo:
+1. Clone the repo:
 - git clone https://github.com/Masumiub/FlyFar.git
 - cd FlyFar
 
-- 2. Install dependencies:
+2. Install dependencies:
 - npm install
 
-- 3. Run the development server:
+3. handle .env.local file and add:
+- MONGODB_URI
+
+3. Run the development server:
 - npm run dev
 
-- 4. Open in browser:
+4. Open in browser:
 - http://localhost:3000
