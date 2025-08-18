@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ✈️ FlyFar – Travel & Tour Booking Platform  
 
-## Getting Started
+Live Demo 👉 [https://fly-far-two.vercel.app/](https://fly-far-two.vercel.app/)  
+GitHub Repo 👉 [https://github.com/Masumiub/FlyFar](https://github.com/Masumiub/FlyFar)  
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Created by:
+Md Masum Musfique
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📌 Description  
+**FlyFar** is a modern travel and tour booking platform built with **Next.js App Router**.  
+It allows users to explore curated tour packages, view package details, and contact the agency through a built-in form.  
+The project integrates **SEO optimization**, **dark/light mode**, and leverages **SSG with ISR** and **CSR** for a seamless and efficient user experience.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Features  
+- 🏡 **Homepage** with dynamic highlights  
+- 📦 **Tour Packages** listing with pagination, search, and sorting (CSR)  
+- 🗺️ **Package Details** page with in-depth info  
+- 📩 **Contact Us** page with **React Hook Form** validation  
+- ⚡ **SEO-friendly metadata** for each page  
+- 🎨 **Dark & Light mode toggle**  
+- 📱 Fully **responsive design** (mobile-first)  
+- 🖼️ Optimized images with **Next/Image**  
+- 🔄 **ISR (Incremental Static Regeneration)** for packages (SSG + revalidation)  
+- 🎭 **React Awesome Reveal** animations for smooth UI effects  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack  
+- **Frontend Framework**: [Next.js 15 (App Router)](https://nextjs.org/)  
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)  
+- **Forms**: [React Hook Form](https://react-hook-form.com/)  
+- **Animations**: [React Awesome Reveal](https://react-awesome-reveal.morello.dev/)  
+- **Icons**: [React Icons](https://react-icons.github.io/react-icons/)  
+- **Image Optimization**: Next.js Image  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📦 Main Packages  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+"dependencies": {
+  "next": "latest",
+  "react": "latest",
+  "react-dom": "latest",
+  "react-hook-form": "^7.x",
+  "react-awesome-reveal": "^4.x",
+  "react-icons": "^5.x",
+  "tailwindcss": "^3.x"
+}
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## 🔮 Future Plans
+- 🔑 Add user authentication (NextAuth.js)
+
+- 📅 Implement tour booking system
+
+- 💳 Add Stripe payments for package booking
+
+- ⭐ Tour guide profiles and user reviews
+
+- 🌍 Multi-language support
+
+## ⚙️ Run Locally
+- 1. Clone the repo:
+- git clone https://github.com/Masumiub/FlyFar.git
+- cd FlyFar
+
+- 2. Install dependencies:
+- npm install
+
+- 3. Run the development server:
+- npm run dev
+
+- 4. Open in browser:
+- http://localhost:3000
