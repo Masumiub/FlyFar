@@ -6,14 +6,14 @@ import { FaMoneyBillWave, FaClock } from "react-icons/fa";
 import { MdCardTravel } from "react-icons/md";
 import Link from "next/link";
 
-export default function TourPackages() {
+export default function LatestPackagesHome() {
     const [packages, setPackages] = useState([]);
     const [page, setPage] = useState(1);
     const [totalPages, setTotalPages] = useState(1);
     const [search, setSearch] = useState("");
     const [sort, setSort] = useState("asc");
     const [loading, setLoading] = useState(false);
-    const limit = 9;
+    const limit = 3;
 
     const fetchPackages = async () => {
         setLoading(true);
@@ -43,8 +43,8 @@ export default function TourPackages() {
     }, [search]);
 
     return (
-        <div className="w-full md:w-10/12 mx-auto py-12 mt-35">
-            <h1 className="text-5xl font-bold mb-20 text-center">Explore Our Tour Packages</h1>
+        <div className="w-full mx-auto py-12 ">
+            <h1 className="text-5xl font-bold mb-20 text-center">So, Where to next?</h1>
 
             {/* Search + Sort */}
             <div className="flex flex-col md:flex-row gap-5 items-center justify-between my-10 bg-linear-to-r from-sky-500 to-blue-700 p-10 rounded-2xl shadow-lg">

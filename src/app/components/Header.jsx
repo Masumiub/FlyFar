@@ -24,10 +24,10 @@ export default function Header() {
 
     return (
 
-        <div className="">
+        <div className="overflow-x-hidden mt-10">
             <Slider {...settings}>
                 <div>
-                    <div className='flex flex-col md:flex-row gap-10 mt-25 mb-25 py-10 px-2 items-center'>
+                    <div className='flex flex-col md:flex-row gap-10 mt-15  px-2 items-center'>
                         <div className='w-full md:w-1/2'>
                             <h1 className='text-4xl lg:text-6xl'>Discover Bangladesh’s <span className='text-blue-500 font-bold'>Hidden Gems</span></h1>
 
@@ -42,7 +42,7 @@ export default function Header() {
                 </div>
 
                 <div>
-                    <div className='flex flex-col md:flex-row gap-10 mt-25 mb-25 py-10 px-2 items-center'>
+                    <div className='flex flex-col md:flex-row gap-10 mt-15  px-2 items-center'>
                         <div className='w-full md:w-1/2'>
                             <h1 className='text-4xl lg:text-6xl'>Plan Your <span className='text-blue-500 font-bold'>Perfect Trip</span> with Ease</h1>
 
@@ -57,7 +57,7 @@ export default function Header() {
                 </div>
 
                 <div>
-                    <div className='flex flex-col md:flex-row gap-10 mt-25 mb-25 py-10 px-2 items-center'>
+                    <div className='flex flex-col md:flex-row gap-10 mt-15  px-2 items-center'>
                         <div className='w-full md:w-1/2'>
                             <h1 className='text-4xl lg:text-6xl'><span className='text-blue-500 font-bold'>Experience</span> Culture, Nature & Heritage</h1>
 

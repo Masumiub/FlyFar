@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from "react";
 
 import { CgDarkMode } from "react-icons/cg";
-import { IoHomeOutline, IoPersonOutline } from "react-icons/io5";
+import { IoHomeOutline, IoMailUnreadOutline, IoPersonOutline } from "react-icons/io5";
 import { SlPlane } from "react-icons/sl";
 import { MdNotes } from "react-icons/md";
 import logo from "../../../public/assets/logo.png";
@@ -97,7 +97,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link href="/contact">
-                <MdNotes />
+                <IoMailUnreadOutline />
                 Contact
               </Link>
             </li>

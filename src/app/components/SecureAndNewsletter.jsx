@@ -20,7 +20,7 @@ const SecureAndNewsletter = () => {
                             Your safety is our priority. Book your tours with peace of mind using our encrypted payment gateway.
                             All transactions are protected, and your information is secure.
                         </p>
-                        <Link className='btn btn-lg mt-8 bg-blue-500 text-white rounded-full hover:text-blue-500 hover:bg-white' href='/allTrips'>Explore Now</Link>
+                        <Link className='btn btn-lg mt-8 bg-blue-500 text-white rounded-full hover:text-blue-500 hover:bg-white' href='/login'>Explore Now</Link>
                         <Image src={securedPayment}
                             alt="Secure Booking"
                             className="w-[290px] md:w-[300px] lg:w-[450px] mx-auto" />

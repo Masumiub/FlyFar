@@ -47,7 +47,7 @@ export default function AboutUsPage() {
             {/* Description */}
             <section className="mx-auto py-10  bg-linear-to-r from-sky-500 to-blue-700 px-10 rounded-2xl shadow-lg text-white">
                 <Slide direction="up">
-                    <div className="flex flex-col md:flex-row gap-10">
+                    <div className="flex flex-col md:flex-row gap-10 items-center">
                         <div>
                             <Image src={logo} className="w-55" alt='logo'></Image>
                         </div>
