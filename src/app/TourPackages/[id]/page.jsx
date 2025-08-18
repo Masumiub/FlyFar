@@ -3,6 +3,8 @@ import Image from "next/image";
 import { ObjectId } from "mongodb";
 import { FaMoneyBillWave, FaClock, FaUsers, FaStar, FaMapMarkerAlt } from "react-icons/fa";
 import { MdTour } from "react-icons/md";
+import Overview from "@/app/components/Overview";
+import FAQs from "@/app/components/FAQs";
 
 export const revalidate = 60;
 
@@ -176,8 +178,12 @@ export default async function page({ params }) {
                     </div>
                 </div>
 
+            <Overview></Overview>
 
+            <FAQs></FAQs>
             </div>
+
+
         </div>
     )
 }

@@ -21,11 +21,11 @@ const geistMono = Geist_Mono({
 export const metadata = {
   // Basic metadata
   title: {
-    default: "Tourist Nest - Explore the World",
-    template: "%s | Tourist Nest",
+    default: "FlyFar - Explore the World",
+    template: "%s | FlyFar Nest",
   },
   description:
-    "Tourist Nest is your trusted travel companion. Discover amazing destinations, book tours, and share your travel stories with ease.",
+    "FlyFar Nest is your trusted travel companion. Discover amazing destinations, book tours, and share your travel stories with ease.",
   keywords: [
     "Travel",
     "Tours",
@@ -36,12 +36,12 @@ export const metadata = {
     "Tour Guides",
     "Tourist Nest",
   ],
-  authors: [{ name: "Tourist Nest Team", url: "https://touristnest.com" }],
-  creator: "Tourist Nest",
-  publisher: "Tourist Nest",
+  authors: [{ name: "FlyFar Team", url: "https://FlyFar.com" }],
+  creator: "FlyFar",
+  publisher: "FlyFar",
 
   // Application metadata
-  applicationName: "Tourist Nest",
+  applicationName: "FlyFar",
   generator: "Next.js",
   referrer: "origin-when-cross-origin",
   robots: {
@@ -61,7 +61,7 @@ export const metadata = {
 
   // Open Graph (Facebook, LinkedIn, etc.)
   openGraph: {
-    title: "Tourist Nest - Explore the World",
+    title: "FlyFar - Explore the World",
     description:
       "Discover and book unforgettable trips with Tourist Nest. Explore destinations, guides, and stories from travelers around the world.",
     url: "https://touristnest.com",
@@ -95,9 +95,7 @@ export const metadata = {
     apple: "/apple-touch-icon.png",
   },
 
-  // Theme settings
-  themeColor: "#ffffff",
-  colorScheme: "light",
+
   category: "Travel & Tourism",
 };
 
