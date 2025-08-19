@@ -33,7 +33,7 @@ export default function Header() {
 
                             <p className='mt-5'>From serene hill tracts to untouched beaches, FlyFar guides you to the lesser-known wonders of Bangladesh. Explore off-the-beaten-path locations with confidence.</p>
 
-                            <Link className='btn btn-lg mt-8 bg-blue-500 text-white rounded-full hover:text-blue-500 hover:bg-white' href='/allTrips'>Explore Now</Link>
+                            <Link className='btn btn-lg mt-8 bg-blue-500 text-white rounded-full hover:text-blue-500 hover:bg-white' href='/TourPackages'>Explore Now</Link>
                         </div>
                         <div className='w-full md:w-1/2'>
                             <Image src={headerBanner1} alt="headerBanner1" className='w-full' />
@@ -48,7 +48,7 @@ export default function Header() {
 
                             <p className='mt-5'>Get detailed information on top destinations, must-try local foods, and cultural experiences. FlyFar helps you create unforgettable travel plans—hassle-free.</p>
 
-                            <Link className='btn btn-lg mt-8 bg-blue-500 text-white rounded-full hover:text-blue-500 hover:bg-white' href='/login'>Join Now</Link>
+                            <Link className='btn btn-lg mt-8 bg-blue-500 text-white rounded-full hover:text-blue-500 hover:bg-white' href='/TourPackages'>Join Now</Link>
                         </div>
                         <div className='w-full md:w-1/2'>
                             <Image src={headerBanner2} alt="headerBanner1" className='w-full' />
@@ -63,7 +63,7 @@ export default function Header() {
 
                             <p className='mt-5'>Dive into the rich history, vibrant traditions, and breathtaking nature of Bangladesh. With FlyFar, every journey is more than just a trip—it’s a cultural adventure.</p>
 
-                            <Link className='btn btn-lg mt-8 bg-blue-500 text-white rounded-full hover:text-blue-500 hover:bg-white' href='/login'>Join Now</Link>
+                            <Link className='btn btn-lg mt-8 bg-blue-500 text-white rounded-full hover:text-blue-500 hover:bg-white' href='/TourPackages'>Join Now</Link>
                         </div>
                         <div className='w-full md:w-1/2'>
                             <Image src={headerBanner3} alt="headerBanner1" className='w-full' />
